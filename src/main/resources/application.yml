@@ -1,0 +1,36 @@
+server:
+  port: 8090
+
+name:
+  value: "adas \n abc"
+
+friends: "{name:'zhangsan',age:20}"
+
+test:
+  abc:
+   -aaa
+   -bbb
+   -ccc
+
+pets: aaa,bbb,ccc
+
+user:
+  name: zhangsan
+  age: 20
+  birth: 2020/06/03
+  maps: {k1: v1,k2: 12}
+  lists:
+    - aaa
+    - bbb
+  dog:
+    name: yyy
+    age: 1
+
+
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/javaweb?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
